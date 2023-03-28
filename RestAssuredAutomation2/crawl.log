@@ -1,0 +1,611 @@
+INFO	2023-03-27 23:38:21,789	0	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_001 get all Employees data************** 
+INFO	2023-03-27 23:38:32,493	10704	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Content Type************* 
+INFO	2023-03-27 23:38:32,509	10720	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Type is:application/json
+INFO	2023-03-27 23:38:32,533	10744	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:38:32,533	10744	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:gzip
+INFO	2023-03-27 23:38:32,508	10719	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Response Time************* 
+INFO	2023-03-27 23:38:32,541	10752	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Body************* 
+INFO	2023-03-27 23:38:32,536	10747	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Length************* 
+INFO	2023-03-27 23:38:32,542	10753	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Encoding is:636
+INFO	2023-03-27 23:38:32,546	10757	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	response time is: 3612
+WARN	2023-03-27 23:38:32,547	10758	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Response time is greater than 2000
+INFO	2023-03-27 23:38:32,700	10911	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Server Type************* 
+INFO	2023-03-27 23:38:32,701	10912	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Type is:nginx/1.21.6
+INFO	2023-03-27 23:38:32,720	10931	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********get Cookie value************* 
+INFO	2023-03-27 23:38:32,736	10947	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Line************* 
+INFO	2023-03-27 23:38:32,737	10948	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status line is:HTTP/1.1 200 OK
+INFO	2023-03-27 23:38:32,745	10956	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Status Code************* 
+INFO	2023-03-27 23:38:32,746	10957	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Status code is: 200
+INFO	2023-03-27 23:38:32,809	11020	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Response Body is:{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2023-03-27 23:38:32,831	11042	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	**********Finished TC_001 get all Employees data************** 
+INFO	2023-03-27 23:38:33,058	11269	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Started TC_002 get single Employee data************** 
+INFO	2023-03-27 23:38:37,706	15917	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:38:37,713	15924	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Encoding is:gzip
+INFO	2023-03-27 23:38:37,723	15934	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Server Type************* 
+INFO	2023-03-27 23:38:37,723	15934	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Type is:nginx/1.21.6
+INFO	2023-03-27 23:38:37,747	15958	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Time************* 
+INFO	2023-03-27 23:38:37,748	15959	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	response time is: 1553
+INFO	2023-03-27 23:38:37,757	15968	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Status Line************* 
+INFO	2023-03-27 23:38:37,758	15969	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-27 23:38:37,761	15972	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Length************* 
+INFO	2023-03-27 23:38:37,763	15974	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:595
+INFO	2023-03-27 23:38:37,765	15976	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking empid is in the body or not************* 
+INFO	2023-03-27 23:38:37,780	15991	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********get Cookie value************* 
+INFO	2023-03-27 23:38:37,824	16035	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Content Type************* 
+INFO	2023-03-27 23:38:37,830	16041	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-27 23:38:37,830	16041	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_003 to create employee record************** 
+INFO	2023-03-27 23:38:37,822	16033	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Status Code************* 
+INFO	2023-03-27 23:38:37,834	16045	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Status code is: 429
+INFO	2023-03-27 23:38:37,837	16048	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	**********Finished TC_002 get single Employee data************** 
+INFO	2023-03-27 23:38:41,134	19345	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:38:41,136	19347	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:gzip
+INFO	2023-03-27 23:38:41,154	19365	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Server Type************* 
+INFO	2023-03-27 23:38:41,156	19367	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Type is:Apache
+INFO	2023-03-27 23:38:41,202	19413	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Code************* 
+INFO	2023-03-27 23:38:41,203	19414	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status code is: 429
+INFO	2023-03-27 23:38:41,297	19508	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Time************* 
+INFO	2023-03-27 23:38:41,297	19508	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	response time is: 1238
+INFO	2023-03-27 23:38:41,306	19517	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********get Cookie value************* 
+INFO	2023-03-27 23:38:41,163	19374	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Type************* 
+INFO	2023-03-27 23:38:41,330	19541	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Started TC_004 to update existing employee record************** 
+INFO	2023-03-27 23:38:41,331	19542	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-27 23:38:41,322	19533	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Line************* 
+INFO	2023-03-27 23:38:41,338	19549	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-27 23:38:41,316	19527	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Length************* 
+INFO	2023-03-27 23:38:41,339	19550	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Encoding is:595
+INFO	2023-03-27 23:38:41,314	19525	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Response Body************* 
+INFO	2023-03-27 23:38:41,349	19560	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Response Body is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2023-03-27 23:38:41,372	19583	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	**********Finished TC_003 to create employee record************** 
+INFO	2023-03-27 23:38:44,730	22941	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Response Time************* 
+INFO	2023-03-27 23:38:44,735	22946	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	response time is: 1337
+INFO	2023-03-27 23:38:44,758	22969	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Server Type************* 
+INFO	2023-03-27 23:38:44,758	22969	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Type is:Apache
+INFO	2023-03-27 23:38:44,775	22986	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Status Code************* 
+INFO	2023-03-27 23:38:44,775	22986	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Status code is: 429
+INFO	2023-03-27 23:38:44,788	22999	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Length************* 
+INFO	2023-03-27 23:38:44,796	23007	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Encoding is:595
+INFO	2023-03-27 23:38:44,799	23010	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Response Body************* 
+INFO	2023-03-27 23:38:44,802	23013	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Response Body is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2023-03-27 23:38:44,819	23030	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********get Cookie value************* 
+INFO	2023-03-27 23:38:44,847	23058	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_005 to delete existing employee record************** 
+INFO	2023-03-27 23:38:44,796	23007	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Status Line************* 
+INFO	2023-03-27 23:38:44,849	23060	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-27 23:38:44,791	23002	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Type************* 
+INFO	2023-03-27 23:38:44,871	23082	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-27 23:38:44,841	23052	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:38:44,877	23088	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Content Encoding is:gzip
+INFO	2023-03-27 23:38:44,881	23092	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	**********Finished TC_004 to update existing employee record************** 
+INFO	2023-03-27 23:43:15,983	0	EmployeesRestAPI	[main]	***********Started TC_001 get all Employees data************** 
+INFO	2023-03-27 23:43:25,518	9535	EmployeesRestAPI	[main]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:43:25,524	9541	EmployeesRestAPI	[main]	Content Encoding is:gzip
+INFO	2023-03-27 23:43:25,541	9558	EmployeesRestAPI	[main]	***********Checking Content Length************* 
+INFO	2023-03-27 23:43:25,543	9560	EmployeesRestAPI	[main]	Content Encoding is:636
+INFO	2023-03-27 23:43:25,558	9575	EmployeesRestAPI	[main]	***********Checking Content Type************* 
+INFO	2023-03-27 23:43:25,561	9578	EmployeesRestAPI	[main]	Content Type is:application/json
+INFO	2023-03-27 23:43:25,584	9601	EmployeesRestAPI	[main]	***********Checking Response Body************* 
+INFO	2023-03-27 23:43:25,634	9651	EmployeesRestAPI	[main]	Response Body is:{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2023-03-27 23:43:25,659	9676	EmployeesRestAPI	[main]	***********Checking Response Time************* 
+INFO	2023-03-27 23:43:25,663	9680	EmployeesRestAPI	[main]	response time is: 3584
+WARN	2023-03-27 23:43:25,663	9680	EmployeesRestAPI	[main]	Response time is greater than 2000
+INFO	2023-03-27 23:43:25,688	9705	EmployeesRestAPI	[main]	***********Checking Server Type************* 
+INFO	2023-03-27 23:43:25,689	9706	EmployeesRestAPI	[main]	Content Type is:nginx/1.21.6
+INFO	2023-03-27 23:43:25,700	9717	EmployeesRestAPI	[main]	***********Checking Status Code************* 
+INFO	2023-03-27 23:43:25,701	9718	EmployeesRestAPI	[main]	Status code is: 200
+INFO	2023-03-27 23:43:25,722	9739	EmployeesRestAPI	[main]	***********Checking Status Line************* 
+INFO	2023-03-27 23:43:25,724	9741	EmployeesRestAPI	[main]	Status line is:HTTP/1.1 200 OK
+INFO	2023-03-27 23:43:25,733	9750	EmployeesRestAPI	[main]	***********get Cookie value************* 
+INFO	2023-03-27 23:43:25,812	9829	EmployeesRestAPI	[main]	**********Finished TC_001 get all Employees data************** 
+INFO	2023-03-27 23:44:02,102	0	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_001 get all Employees data************** 
+INFO	2023-03-27 23:44:13,030	10928	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Content Type************* 
+INFO	2023-03-27 23:44:13,033	10931	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-27 23:44:13,036	10934	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Body************* 
+INFO	2023-03-27 23:44:13,041	10939	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:44:13,042	10940	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:gzip
+INFO	2023-03-27 23:44:13,044	10942	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Response Time************* 
+INFO	2023-03-27 23:44:13,047	10945	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Length************* 
+INFO	2023-03-27 23:44:13,049	10947	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Encoding is:595
+INFO	2023-03-27 23:44:13,061	10959	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	response time is: 4565
+WARN	2023-03-27 23:44:13,061	10959	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Response time is greater than 2000
+INFO	2023-03-27 23:44:13,147	11045	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Server Type************* 
+INFO	2023-03-27 23:44:13,155	11053	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Status Code************* 
+INFO	2023-03-27 23:44:13,156	11054	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Status code is: 429
+INFO	2023-03-27 23:44:13,181	11079	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Line************* 
+INFO	2023-03-27 23:44:13,181	11079	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-27 23:44:13,204	11102	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********get Cookie value************* 
+INFO	2023-03-27 23:44:13,236	11134	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Started TC_002 get single Employee data************** 
+INFO	2023-03-27 23:44:13,228	11126	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Type is:nginx/1.21.6
+INFO	2023-03-27 23:44:13,227	11125	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Response Body is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2023-03-27 23:44:13,339	11237	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	**********Finished TC_001 get all Employees data************** 
+INFO	2023-03-27 23:44:18,024	15922	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:44:18,028	15926	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Encoding is:gzip
+INFO	2023-03-27 23:44:18,036	15934	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Server Type************* 
+INFO	2023-03-27 23:44:18,037	15935	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Type is:nginx/1.21.6
+INFO	2023-03-27 23:44:18,043	15941	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Status Code************* 
+INFO	2023-03-27 23:44:18,044	15942	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Status code is: 429
+INFO	2023-03-27 23:44:18,058	15956	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Status Line************* 
+INFO	2023-03-27 23:44:18,058	15956	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-27 23:44:18,071	15969	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********get Cookie value************* 
+INFO	2023-03-27 23:44:18,107	16005	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Started TC_003 to create employee record************** 
+INFO	2023-03-27 23:44:18,099	15997	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Length************* 
+INFO	2023-03-27 23:44:18,108	16006	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:595
+INFO	2023-03-27 23:44:18,098	15996	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Type************* 
+INFO	2023-03-27 23:44:18,096	15994	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking empid is in the body or not************* 
+INFO	2023-03-27 23:44:18,095	15993	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Time************* 
+INFO	2023-03-27 23:44:18,115	16013	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	response time is: 1722
+INFO	2023-03-27 23:44:18,127	16025	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-27 23:44:18,131	16029	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	**********Finished TC_002 get single Employee data************** 
+INFO	2023-03-27 23:44:22,177	20075	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Response Time************* 
+INFO	2023-03-27 23:44:22,182	20080	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	response time is: 1951
+INFO	2023-03-27 23:44:22,183	20081	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:44:22,183	20081	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Encoding is:gzip
+INFO	2023-03-27 23:44:22,185	20083	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Response Body************* 
+INFO	2023-03-27 23:44:22,186	20084	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Response Body is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2023-03-27 23:44:22,191	20089	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Server Type************* 
+INFO	2023-03-27 23:44:22,192	20090	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Type is:Apache
+INFO	2023-03-27 23:44:22,206	20104	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Status Code************* 
+INFO	2023-03-27 23:44:22,206	20104	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Status code is: 429
+INFO	2023-03-27 23:44:22,226	20124	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Status Line************* 
+INFO	2023-03-27 23:44:22,226	20124	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-27 23:44:22,246	20144	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********get Cookie value************* 
+INFO	2023-03-27 23:44:22,353	20251	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Content Type************* 
+INFO	2023-03-27 23:44:22,373	20271	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-27 23:44:22,335	20233	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Length************* 
+INFO	2023-03-27 23:44:22,382	20280	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:595
+INFO	2023-03-27 23:44:22,389	20287	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	**********Finished TC_003 to create employee record************** 
+INFO	2023-03-27 23:44:22,394	20292	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Started TC_004 to update existing employee record************** 
+INFO	2023-03-27 23:44:25,728	23626	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Response Time************* 
+INFO	2023-03-27 23:44:25,734	23632	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	response time is: 1261
+INFO	2023-03-27 23:44:25,734	23632	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Encoding************* 
+INFO	2023-03-27 23:44:25,747	23645	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Encoding is:gzip
+INFO	2023-03-27 23:44:25,751	23649	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Body************* 
+INFO	2023-03-27 23:44:25,754	23652	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Content Length************* 
+INFO	2023-03-27 23:44:25,754	23652	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Encoding is:123
+INFO	2023-03-27 23:44:25,759	23657	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Response Body is:{"status":"success","data":{"name":"johnB","salary":"39978","age":"95"},"message":"Successfully! Record has been updated."}
+INFO	2023-03-27 23:44:25,760	23658	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Status Code************* 
+INFO	2023-03-27 23:44:25,761	23659	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Status code is: 200
+INFO	2023-03-27 23:44:25,776	23674	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Status Line************* 
+INFO	2023-03-27 23:44:25,776	23674	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Status line is:HTTP/1.1 200 OK
+INFO	2023-03-27 23:44:25,786	23684	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********get Cookie value************* 
+INFO	2023-03-27 23:44:25,802	23700	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Server Type************* 
+INFO	2023-03-27 23:44:25,807	23705	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Type is:Apache
+INFO	2023-03-27 23:44:25,799	23697	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Type************* 
+INFO	2023-03-27 23:44:25,808	23706	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Type is:application/json
+INFO	2023-03-27 23:44:25,807	23705	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Started TC_005 to delete existing employee record************** 
+INFO	2023-03-27 23:44:25,835	23733	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	**********Finished TC_004 to update existing employee record************** 
+INFO	2023-03-28 01:49:59,453	0	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_001 get all Employees data************** 
+INFO	2023-03-28 01:50:10,423	10970	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Body************* 
+INFO	2023-03-28 01:50:10,432	10979	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Length************* 
+INFO	2023-03-28 01:50:10,432	10979	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Encoding is:636
+INFO	2023-03-28 01:50:10,453	11000	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Response Time************* 
+INFO	2023-03-28 01:50:10,455	11002	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Content Type************* 
+INFO	2023-03-28 01:50:10,456	11003	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Type is:application/json
+INFO	2023-03-28 01:50:10,461	11008	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	response time is: 4203
+WARN	2023-03-28 01:50:10,461	11008	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Response time is greater than 2000
+INFO	2023-03-28 01:50:10,536	11083	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Encoding************* 
+INFO	2023-03-28 01:50:10,536	11083	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:gzip
+INFO	2023-03-28 01:50:10,567	11114	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Server Type************* 
+INFO	2023-03-28 01:50:10,567	11114	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Type is:nginx/1.21.6
+INFO	2023-03-28 01:50:10,579	11126	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Code************* 
+INFO	2023-03-28 01:50:10,579	11126	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status code is: 200
+INFO	2023-03-28 01:50:10,582	11129	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Line************* 
+INFO	2023-03-28 01:50:10,582	11129	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status line is:HTTP/1.1 200 OK
+INFO	2023-03-28 01:50:10,584	11131	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********get Cookie value************* 
+INFO	2023-03-28 01:50:10,615	11162	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Response Body is:{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2023-03-28 01:50:10,735	11282	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	**********Finished TC_001 get all Employees data************** 
+INFO	2023-03-28 01:50:10,741	11288	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_002 get single Employee data************** 
+INFO	2023-03-28 01:50:15,261	15808	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Encoding************* 
+INFO	2023-03-28 01:50:15,262	15809	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:gzip
+INFO	2023-03-28 01:50:15,269	15816	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Server Type************* 
+INFO	2023-03-28 01:50:15,272	15819	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Type is:nginx/1.21.6
+INFO	2023-03-28 01:50:15,283	15830	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Code************* 
+INFO	2023-03-28 01:50:15,284	15831	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status code is: 429
+INFO	2023-03-28 01:50:15,318	15865	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Line************* 
+INFO	2023-03-28 01:50:15,319	15866	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-28 01:50:15,331	15878	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********get Cookie value************* 
+INFO	2023-03-28 01:50:15,272	15819	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Time************* 
+INFO	2023-03-28 01:50:15,341	15888	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Length************* 
+INFO	2023-03-28 01:50:15,339	15886	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Type************* 
+INFO	2023-03-28 01:50:15,470	16017	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-28 01:50:15,471	16018	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Encoding is:595
+INFO	2023-03-28 01:50:15,337	15884	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking empid is in the body or not************* 
+INFO	2023-03-28 01:50:15,470	16017	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	response time is: 1455
+INFO	2023-03-28 01:50:15,507	16054	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	**********Finished TC_002 get single Employee data************** 
+INFO	2023-03-28 01:50:15,514	16061	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_003 to create employee record************** 
+INFO	2023-03-28 01:50:18,716	19263	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Encoding************* 
+INFO	2023-03-28 01:50:18,717	19264	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:gzip
+INFO	2023-03-28 01:50:18,720	19267	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Server Type************* 
+INFO	2023-03-28 01:50:18,721	19268	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Type is:Apache
+INFO	2023-03-28 01:50:18,725	19272	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Code************* 
+INFO	2023-03-28 01:50:18,726	19273	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status code is: 429
+INFO	2023-03-28 01:50:18,729	19276	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Response Time************* 
+INFO	2023-03-28 01:50:18,729	19276	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	response time is: 1156
+INFO	2023-03-28 01:50:18,732	19279	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Status Line************* 
+INFO	2023-03-28 01:50:18,733	19280	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-28 01:50:18,740	19287	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Body************* 
+INFO	2023-03-28 01:50:18,740	19287	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********get Cookie value************* 
+INFO	2023-03-28 01:50:18,829	19376	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Started TC_004 to update existing employee record************** 
+INFO	2023-03-28 01:50:18,785	19332	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Length************* 
+INFO	2023-03-28 01:50:18,837	19384	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Encoding is:595
+INFO	2023-03-28 01:50:18,773	19320	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Content Type************* 
+INFO	2023-03-28 01:50:18,840	19387	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-28 01:50:18,747	19294	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	Response Body is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2023-03-28 01:50:18,869	19416	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	**********Finished TC_003 to create employee record************** 
+INFO	2023-03-28 01:50:22,272	22819	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Response Body************* 
+INFO	2023-03-28 01:50:22,274	22821	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Response Body is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2023-03-28 01:50:22,306	22853	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Server Type************* 
+INFO	2023-03-28 01:50:22,307	22854	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Content Type is:Apache
+INFO	2023-03-28 01:50:22,314	22861	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Status Code************* 
+INFO	2023-03-28 01:50:22,315	22862	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Status code is: 429
+INFO	2023-03-28 01:50:22,320	22867	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Checking Status Line************* 
+INFO	2023-03-28 01:50:22,321	22868	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	Status line is:HTTP/1.1 429 Too Many Requests
+INFO	2023-03-28 01:50:22,325	22872	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********get Cookie value************* 
+INFO	2023-03-28 01:50:22,358	22905	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	***********Checking Content Length************* 
+INFO	2023-03-28 01:50:22,375	22922	EmployeesRestAPI	[TestNG-test=RestAssuredTest-3]	Content Encoding is:595
+INFO	2023-03-28 01:50:22,351	22898	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	***********Checking Response Time************* 
+INFO	2023-03-28 01:50:22,381	22928	EmployeesRestAPI	[TestNG-test=RestAssuredTest-4]	response time is: 1389
+INFO	2023-03-28 01:50:22,350	22897	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	***********Checking Content Type************* 
+INFO	2023-03-28 01:50:22,383	22930	EmployeesRestAPI	[TestNG-test=RestAssuredTest-5]	Content Type is:text/html; charset=UTF-8
+INFO	2023-03-28 01:50:22,342	22889	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	***********Checking Content Encoding************* 
+INFO	2023-03-28 01:50:22,385	22932	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	Content Encoding is:gzip
+INFO	2023-03-28 01:50:22,388	22935	EmployeesRestAPI	[TestNG-test=RestAssuredTest-1]	**********Finished TC_004 to update existing employee record************** 
+INFO	2023-03-28 01:50:22,389	22936	EmployeesRestAPI	[TestNG-test=RestAssuredTest-2]	***********Started TC_005 to delete existing employee record************** 
